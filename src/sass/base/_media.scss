@@ -1,0 +1,190 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 991px;
+        padding: 0 30px;
+    }
+    
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+    }
+
+    .advantage {
+        &__item {
+            width: 220px;
+        }
+    }
+
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+
+    .consult {
+        &__descr {
+            margin: 60px auto 0 auto;
+            text-align: center;
+        }
+    }
+
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        &__contacts{
+            margin-top: 15px;
+            align-items: center;
+        }
+    }
+
+    .advantage {
+        &__wrapper {
+            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            margin-top: 20px;
+            width: 100%;
+        }
+        &__title {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 20px;
+        }
+    }
+    
+    .catalog {
+        &-item {
+            margin: 0 10px 20px 10px;
+        }
+    }
+
+    .clients {
+        &__item {
+            flex-direction: column;
+        }
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__wrapper {
+            margin: 0;
+        }
+        &__title {
+            margin-top: 10px;
+            text-align: center;
+        }
+        &__counter {
+            text-align: center;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        &__official {
+            margin-top: 15px;
+        }
+    }
+
+    .promo {
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__header {
+            font-size: 36px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 100%;
+            margin-top: 35px;
+        }
+        &__icon {
+            font-size: 12px;
+            img {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .button {
+        &_main {
+            width: 260px;
+            margin-top: 38px;
+        }
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+    .feed-form {
+        width: 100%;
+    }
+    
+    .consult {
+        padding: 50px 0 46px 0;
+        &__descr {
+            margin-top: 40px;
+            max-width: 100%;
+            text-align: center;
+        }
+    }
+
+    .catalog {
+        padding-bottom: 50px;
+        &__content {
+            justify-content: center; 
+        }
+        &__tabs {
+            margin-top: 40px;
+            flex-direction: column;
+        }
+        &__tab {
+            margin-bottom: 15px;
+        }
+        &-item {
+            &__price {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .footer {
+        &__info {
+            width: 100%;
+            padding: 25px 34px 30px 34px;
+        }
+    }
+
+    .modal {
+        padding: 19px 20px 20px 20px;
+        &__close {
+            right: -30px;
+        }
+    }
+    
+}
